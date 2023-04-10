@@ -12,5 +12,8 @@ export class PDirective implements OnInit {
 
     ngOnInit() {
         this.renderer.setStyle(this.elementRef.nativeElement, 'background-color', 'lightgray');
+        this.renderer.setStyle(this.elementRef.nativeElement, 'padding', '1rem');
+        this.renderer.setStyle(this.elementRef.nativeElement, 'border-radius', '0.5rem');
+        this.renderer.setStyle(this.elementRef.nativeElement, 'font-size', '90%');
     }
 }
